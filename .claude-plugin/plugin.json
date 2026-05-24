@@ -1,0 +1,15 @@
+{
+  "name": "agent-skills",
+  "description": "个人 Claude Code skills 合集：JD分析、模型测试、视频转录整理",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stephen-Xu-X"
+  },
+  "license": "MIT",
+  "keywords": ["claude-code", "skills", "jd-analyzer", "list-models", "transcript"],
+  "skills": [
+    "./skills/jd-analyzer",
+    "./skills/list-models",
+    "./skills/video-script-organizer"
+  ]
+}

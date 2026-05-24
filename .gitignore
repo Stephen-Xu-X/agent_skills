@@ -1,0 +1,12 @@
+# Personal files
+**/references/CV.md
+**/references/cv.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
