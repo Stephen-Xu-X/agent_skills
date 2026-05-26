@@ -59,7 +59,7 @@ metadata:
 
 ### Step 5：用户确认后生成文件
 
-用户确认后，在工作目录下创建 `yyyy-mm-dd.md`，方便用户自行拖入 `Personal Review/Diary/` 文件夹。不锁定固定路径。
+用户确认后，在 `e:\Archive\obsidian\Personal Review\Diary\` 下创建 `yyyy-mm-dd.md`。
 
 ## 转换示例
 
@@ -191,4 +191,4 @@ tags: [Review, Weekly]
 
 - 工作日引用处添加 Obsidian 双链 `[[日记/YYYY-MM-DD]]`，便于跳转原始日记
 - 任务备注中如有 `[[链接]]` 保留不动
-- 在工作目录下创建 `{年份}-W{周号}-复盘.md`，方便用户拖入 `Personal Review/Diary/` 文件夹
+- 在 `e:\Archive\obsidian\Personal Review\Weekly\` 下创建 `{年份}-W{周号}-复盘.md`
