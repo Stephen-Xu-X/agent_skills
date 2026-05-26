@@ -27,7 +27,7 @@ metadata:
 ### Step 1：读取日记文件
 
 1. 根据对话上下文确定目标日期（今天 或 用户指定的日期）
-2. 读取 `e:\Archive\obsidian\日记\{日期}.md`
+2. 读取 `e:\Archive\obsidian\Personal Review\Diary\{日期}.md`
 3. 读取 `e:\Archive\obsidian\Templates\Diary Template.md` 了解模板结构
 
 ### Step 2：分析原始内容
@@ -59,7 +59,7 @@ metadata:
 
 ### Step 5：用户确认后生成文件
 
-用户确认后，在工作目录下创建 `yyyy-mm-dd.md`，方便用户自行拖入 `日记/` 文件夹。不锁定固定路径。
+用户确认后，在工作目录下创建 `yyyy-mm-dd.md`，方便用户自行拖入 `Personal Review/Diary/` 文件夹。不锁定固定路径。
 
 ## 转换示例
 
@@ -187,6 +187,8 @@ tags: [Review, Weekly]
 ## 🎯 下周方向
 ```
 
-### 生成文件
+### 生成规则
 
-在工作目录下创建 `{年份}-W{周号}-复盘.md`，方便用户拖入 `日记/` 文件夹。
+- 工作日引用处添加 Obsidian 双链 `[[日记/YYYY-MM-DD]]`，便于跳转原始日记
+- 任务备注中如有 `[[链接]]` 保留不动
+- 在工作目录下创建 `{年份}-W{周号}-复盘.md`，方便用户拖入 `Personal Review/Diary/` 文件夹
